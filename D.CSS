@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(234, 29%, 20%);
+    padding: 4%;
+}
+.box{
+    margin-top: 3%;
+    margin-left: 20%;
+    display: flex;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    width: 70%;
+    height: 570px;
+    background-color:hsl(0, 0%, 100%); 
+    border-radius: 15px;
+}
+#first{
+    padding: 4%;
+    display: flex;
+    width: 40%;
+}
+#second{
+    width: 60%;
+    height: 100%;
+    background-image: url(assets/images/illustration-sign-up-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    border-radius: 3%;
+
+}
+.title{
+    color: hsl(234, 29%, 20%);
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 700;
+}
+.ph{
+    color: hsl(234, 29%, 20%);
+    font-display: flex;
+    margin-left: 1%;
+    margin-top: -10%;
+    margin-bottom: 1%;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+
+
+}
+.ph2{
+    color: hsl(234, 29%, 20%);
+    font-display: flex;
+    margin-left: 10%;
+    margin-top: -7%;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.icon{
+    margin-left: 1%;
+}
+#ema{
+    color: hsl(234, 29%, 20%);
+    font-display: flex;
+    margin-left: 1%;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+}
+#email{
+    width: 300px;
+    height: 40px;
+    border-radius: 1%;
+    color:hsl(235, 18%, 26%) ;
+}
+#sub{
+    background-color:hsl(235, 18%, 26%) ;
+    color: white;
+    margin-top: 32px;
+    width: 308px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#page2{
+    display: none;
+
+}
+#box2{
+    padding: 5%;
+    margin-top: 0.5%;
+    margin-left: 30%;
+    width: 26%;
+    height: 350px;
+    background-color: white;
+    border-radius: 8%;
+}
+#text{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#dimiss{
+    background-color:hsl(235, 18%, 26%) ;
+    color: white;
+    border-color: white;
+    margin-top: 6px;
+    width: 308px;
+    height: 48px;
+    cursor: pointer;
+}
+#text > div > h2{
+    font-size: 2.5rem;
+}
+
+#text > div > p > span{
+    font-weight: 900;
+}
+@media (max-width:768px) {
+    body {
+        display: initial;
+        line-height: 1.4;
+        position: initial;
+    }
+    .page1 {
+        position: initial;
+    width: 100%;
+    height: initial;
+    padding: 0;
+    grid-template-columns: 1fr ;
+    }
+    .sub {
+        display: block;
+        padding: initial;
+    }
+    .box {
+        padding: 1rem 2rem;
+        grid-row: 2;
+    }
+    .left{
+        margin-bottom: 1rem;
+    }
+    .first {
+        width: 100%;
+    }
+
+    
+}
+
+
+
+
+
+
+
